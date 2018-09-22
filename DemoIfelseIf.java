@@ -1,0 +1,14 @@
+public class DemoIfelseIf{
+    public static void main(String[]args){
+        double gtade =92;
+        if (grade>=90){
+            System.out.println("Excellent!");
+        }else if ((grade <90)&&(grade >=90)){
+            System.out.println("Good job!");
+        }else if ((grade <80)&&(grade >=60)){
+            System.out.println("Study Harder!");
+        }else{
+            System.out.println("Sorry, you failed");
+        }
+    }
+}
